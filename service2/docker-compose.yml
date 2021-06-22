@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  redis:
+  redis_abcd:
     image: "redis:alpine"
     command: --port 7001
     ports:

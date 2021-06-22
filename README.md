@@ -1,5 +1,14 @@
 # docker_compose_demos
-Example of communication between services in two docker compose
+
+Example of:
+
+Communication between two docker compose networks
+
+Use of different redis port than default: 6379
+
+Use of different redis service name than usual: redis
+
+
 
 ## Bringup redis via one compose
 ```cd service2```\
