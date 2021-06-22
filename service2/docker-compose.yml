@@ -2,6 +2,9 @@ version: "3.9"
 services:
   redis:
     image: "redis:alpine"
+    command: --port 7001
+    ports:
+      - "7001:7001"
 
 networks:
   default:
